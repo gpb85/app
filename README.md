@@ -10,11 +10,10 @@ npm run build    # dist/ με service worker, εγκαθίσταται ως app
 ```
 
 ## Δομή
+
 - `src/modules/registry.js`: όλες οι ενότητες και τα εργαλεία. Νέο εργαλείο = component + μία εγγραφή εδώ.
 - `src/modules/<ενότητα>/`: τα UI των εργαλείων.
 - `src/lib/`: καθαρή λογική (γεωμετρία, parsing αριθμών) με tests.
 - Routing με `#id` (π.χ. `#triangle`) μέσω `useHashRoute`.
 
 ## Επόμενα
-Κοπή (Vc → n, fz → F), σπειρώματα, ανοχές ISO. Φάση 2: Node + PostgreSQL για φύλλα στησίματος και wiki
-(πρώτα έγκριση από την εταιρεία για τα δεδομένα).
